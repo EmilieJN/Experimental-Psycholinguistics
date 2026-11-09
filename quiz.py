@@ -9,8 +9,8 @@ def quiz():
             for key, val in questions[j].items():
                 if key == "answer":
                     val == 'correct'
-    if input() == val:
-        print('correct!')
-    else:
-        print('incorrect!')
+        if input() == val:
+            print('correct!')
+        else:
+            print('incorrect!')
 quiz()
